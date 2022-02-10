@@ -1,0 +1,96 @@
+@media screen and (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+  .container {
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+  }
+  .content-container {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .inputs-container {
+    width: auto;
+  }
+
+  .inputs-container input {
+    width: auto;
+  }
+
+  .tip-percent {
+    width: auto;
+  }
+
+  .percent-buttons {
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  #calculateButton {
+    margin: 15px 0 15px 0;
+    border-radius: 10px;
+    width: auto;
+  }
+
+  .results {
+    width: auto;
+  }
+
+  #tip-amount, .person-text, #total-per-person {
+    font-size: .8em;
+  }
+
+  .total {
+    width: auto;
+    font-size: 2em;
+  }
+
+  .button-reset {
+    margin: 15px 0 0 0 ;
+  }
+}
+
+@media screen and (max-width: 440px) {
+
+  #tip-amount, .person-text, #total-per-person {
+    font-size: .6em;
+  }
+  .total {
+    width: auto;
+    font-size: 1.2em;
+  }
+
+  .reset {
+    padding: 5px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .tip-percent {
+   width: auto;
+  }
+
+  .percent-buttons {
+    flex-wrap: wrap;
+  }
+
+  .percent-buttons button {
+    font-size: 1em;
+    flex-basis: 90px;
+  }
+
+  #calculateButton {
+    font-size: 1em;
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .percent-buttons button {
+    flex-basis: 80px;
+  }
+}
